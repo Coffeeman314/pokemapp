@@ -1,0 +1,60 @@
+{
+	"env": {
+		"browser": true,
+		"es2021": true
+	},
+	"extends": [
+		"plugin:react-hooks/recommended",
+		"plugin:import/errors",
+		"eslint:recommended",
+		"plugin:react/recommended",
+		"airbnb",
+		"airbnb/hooks"
+	],
+	"parser": "@typescript-eslint/parser",
+	"parserOptions": {
+		"ecmaFeatures": {
+			"jsx": true
+		},
+		"ecmaVersion": "latest",
+		"sourceType": "module"
+	},
+	"plugins": ["react"],
+	"rules": {
+		"eol-last": "warn",
+		"linebreak-style": "warn",
+		"react/self-closing-comp": "warn",
+		"quotes": "warn",
+		"arrow-body-style": "warn",
+		"object-curly-spacing": "warn",
+		"no-unused-vars": "warn",
+		"semi": "warn",
+		"object-curly-newline": "warn",
+		"no-multiple-empty-lines": "warn",
+		"no-trailing-spaces": "warn",
+		"react/jsx-indent": "warn",
+		"comma-dangle": "off",
+		"import/prefer-default-export": "off",
+		"implicit-arrow-linebreak": "warn",
+		"prefer-arrow-callback": "warn",
+		"no-unused-expressions": "warn",
+		"no-param-reassign": "warn",
+		"react/jsx-curly-newline": "off",
+		"react/function-component-definition": [
+			2,
+			{
+				"namedComponents": "arrow-function"
+			}
+		],
+		"react/jsx-filename-extension": "off",
+		"react/prop-types": "off"
+	},
+	"settings": {
+		"import/extensions": [".js", ".jsx"],
+    "import/resolver": {
+      "node": {
+        "extensions": [".js", ".jsx", ".json"]
+      }
+    }
+	}
+}

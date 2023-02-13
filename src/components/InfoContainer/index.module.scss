@@ -1,0 +1,35 @@
+@mixin alignStart {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.infoContainer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+  width: 55%;
+  padding: 30px 60px;
+  .imageBox {
+    height: 192px;
+    width: 192px;
+    img {
+      height: 100%;
+      width: 100%;
+    }
+  }
+
+  .information {
+    @include alignStart;
+    flex-direction: column;
+    padding-left: 40px;
+    width: fit-content;
+    .name {
+    }
+    .abilities .types {
+      @include alignStart;
+      flex-direction: row;
+    }
+  }
+}

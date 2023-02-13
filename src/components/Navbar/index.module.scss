@@ -1,0 +1,28 @@
+.navbar {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  width: 45%;
+  padding-top: 80px;
+  color: #8b4600;
+
+  height: 100%;
+  .navbarNames {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-column-gap: 25px;
+    grid-row-gap: 20px;
+    .selected {
+      background-color: #f3af30;
+    }
+  }
+  .navbarPagination {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 90px;
+    width: 100%;
+  }
+}
