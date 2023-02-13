@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/pokemapp/static/css/main.b593015a.css",
+    "main.js": "/pokemapp/static/js/main.98420ad2.js",
+    "index.html": "/pokemapp/index.html",
+    "main.b593015a.css.map": "/pokemapp/static/css/main.b593015a.css.map",
+    "main.98420ad2.js.map": "/pokemapp/static/js/main.98420ad2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b593015a.css",
+    "static/js/main.98420ad2.js"
+  ]
+}
